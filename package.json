@@ -1,0 +1,29 @@
+{
+  "name": "jharkhand-tribal-marketplace",
+  "version": "1.0.0",
+  "description": "A full-stack e-commerce platform for Jharkhand tribal products",
+  "scripts": {
+    "dev": "concurrently \"npm run server --prefix backend\" \"npm run dev --prefix frontend\" \"npm run dev --prefix admin\"",
+    "server": "npm run server --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "admin": "npm run dev --prefix admin",
+    "build-frontend": "npm run build --prefix frontend",
+    "build-admin": "npm run build --prefix admin",
+    "build": "npm run build-frontend && npm run build-admin",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend && npm install --prefix admin"
+  },
+  "keywords": [
+    "mern",
+    "ecommerce",
+    "marketplace",
+    "react",
+    "nodejs",
+    "mongodb",
+    "stripe"
+  ],
+  "author": "Jharkhand Tribal Products Marketplace",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
