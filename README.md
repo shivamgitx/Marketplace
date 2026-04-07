@@ -27,19 +27,7 @@ This repository hosts the source code for Jharkhand Tribal Products Marketplace,
 - Role-Based Identification
 - Beautiful Alerts
 
-## Screenshots
 
-![Hero](https://i.ibb.co/59cwY75/tribal-hero.png)
-- Hero Section
-
-![Products](https://i.ibb.co/JnNQPyQ/tribal-products.png)
-- Tribal Products Section
-
-![Cart](https://i.ibb.co/t2LrQ8p/tribal-cart.png)
-- Cart Page
-
-![Login](https://i.ibb.co/s6PgwkZ/tribal-login.png)
-- Login Popup
 
 ## GitHub Repository Structure
 
